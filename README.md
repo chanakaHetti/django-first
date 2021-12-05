@@ -8,38 +8,39 @@ The first project of dJango
 `cd django-first`
 `virtualenv venv -p python3`
 
-### Activate virtula env
+#### Activate virtula env
 `source venv/bin/activate`
 
-### Deactive virual env
+#### Deactive virual env
 `deactivate`
 
-### Install Django inside venv
+#### Install Django inside venv
 `pip install Django`
 
-### Create requirement file
+#### Create requirement file
 `pip freeze > requirements.txt`
 
-### Create your project
+#### Create your project
 `django-admin startproject djcrm .`
 
-### Migration
+#### Migration
 `python manage.py migrate`
 
-### Create tables on DB
+#### Create tables on DB
 `python manage.py makemigrations`
 
-### Run django app
+#### Run django app
 `python manage.py runserver`
 
-### Create new django app
+#### Create new django app
 `python manage.py startapp leeds`
 
-### django shell
+#### django shell
 `python manage.py shell`
 
-### Create super user
+#### Create super user
 `python manage.py createsuperuser`
     name: `admin`
     email: `admin@admin.com`,
     pwd: `123456789`
+    
