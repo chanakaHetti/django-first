@@ -3,7 +3,7 @@ The first project of dJango
 
 ## Set up the project with Virtual Envirenment
 
-### Create virtual env
+#### Create virtual env
 `mkdir django-first`
 `cd django-first`
 `virtualenv venv -p python3`
@@ -41,5 +41,5 @@ The first project of dJango
 ### Create super user
 `python manage.py createsuperuser`
     name: `admin`
-    email: `admin@admin.com`,`
+    email: `admin@admin.com`,
     pwd: `123456789`
