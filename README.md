@@ -17,7 +17,7 @@ The first project of dJango
 #### Install Django inside venv
 `pip install Django`
 
-#### Create requirement file
+#### Create and update requirement file
 `pip freeze > requirements.txt`
 
 #### Create your project
@@ -43,4 +43,3 @@ The first project of dJango
     name: `admin`
     email: `admin@admin.com`,
     pwd: `123456789`
-    
