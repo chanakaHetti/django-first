@@ -6,7 +6,7 @@ The first project of dJango
 #### Create virtual env
 `mkdir django-first`
 `cd django-first`
-`virtualenv venv -p python3`
+`virtualenv venv -p python3` / `python3 -m virtualenv venv`
 
 #### Activate virtula env
 `source venv/bin/activate`
